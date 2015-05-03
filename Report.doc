@@ -1,0 +1,104 @@
+
+Geo Tourism Portal
+Shenbaga Rajan V, Aparna Kulkarni, Gautam Solanki, Anuradha Sharma
+
+Introduction:
+Tourism is travel for recreation, leisure, religious, family or business purposes, usually for a limited duration. Tourism is commonly associated with international travel, but may also refer to travel to another place within the same country. The World Tourism Organization defines tourists as people "traveling to and staying in places outside their usual environment for not more than one consecutive year for leisure, business and other purposes". Tourism has become a popular global leisure activity. Tourism can be domestic or international, and international tourism has both incoming and outgoing implications on a country's balance of payments. Today, tourism is a major source of income for many countries, and affects the economy of both the source and host countries, in some cases being of vital importance. Since few years, India has become one of the most visited tourist destinations worldwide. Tour to India is an interesting option where you can indulge in number of activities. People travel during their leisure period more importantly for pleasure. Tourism is an important, even vital, source of income for many countries. Its importance was recognized in the Manila Declaration on World Tourism of 1980 as "an activity essential to the life of nations because of its direct effects on the social, cultural, educational, and economic sectors of national societies and on their international relations."
+Key words: India, Tourism, World Tourism Organization
+
+Objective:
+The main idea behind this project is to develop a Geo-Tourism portal, a user friendly application where user would come to know better about their motherland, explore even more and also share their own visited places as images, comment their views on other’s comments etc. using Drupal a content management system, along with postgresql and postgis, modules of Drupal, Geoserver, Apache webserver. 
+Key words: Geo-Tourism Portal
+
+Tools and Technologies used:
+
+WAMP Server:
+
+It is the combination of Apache, MySQL (later configured as PHPpgadmin for postgresql adminstration), PHP
+
+APACHE:
+
+Apache is also known as Apache HTTP Server, and is an established standard in the online   distribution of website services, which gave the initial boost for the expansion of the World Wide Web. It is an open-source web server platform, which guarantees the online availability of the majority of the websites active today.
+
+PHP:
+
+PHP is the most popular server side scripting language on the web. It is used to enhance web pages.  PHP allows a user to create username and password login pages, check details from a form, create forums, picture galleries, surveys, etc.
+
+POSTGRESQL:
+
+PostgreSQL is a web hosting database that is used to store web site information like blog posts or user information. PostgreSQL is a very popular relational database used on the web. This is partly because it is completely free but it also has some features that other databases, like, MySQL, don't have.
+
+Drupal:
+
+A web content management system (web CMS) is a bundled or stand-alone application to create, manage, store and deploy content on Web pages. Web content includes text and embedded graphics, photos, video, audio, and code (e.g., for applications) that displays content or interacts with the user. A web CMS may catalog and index content, select or assemble content at runtime, or deliver content to specific visitors in a requested way, such as other languages. Drupal is one such content management system.
+Drupal is an open source software package that allows you to easily organize, manage and publish your content, with an endless variety of customization.
+
+Geoserver:
+
+It id the GIS Server, for publishing Geo-Web Services and for sharing of data.
+
+Drupal modules required for Map-Display purpose:
+	Open layers
+	Geo field
+	CTools
+	geoPHP
+	views
+	libraries
+	Geoserver
+	GeoCoder
+
+DEVELOPMENT SYSTEM REQUIREMENTS:
+Hardware Requirements:
+Processors	           :	i 5
+RAM		           :	4GB
+Storage	           :	250 GB
+Monitor	           :	15”
+Keyboard                   :	            Standard 102 keys
+Mouse	                       :	3 buttons
+Software (Tools &Technologies) Requirements:
+Development Platform	:          Windows 7
+Language		            :          PHP, java script, html.
+Web server                              :          Apache
+Data base                                    :           PostgreSql
+CMS                                              :          Drupal 
+GIS Server                                    :          Geoserver
+Administration                           :          PhpPgAdmin
+
+Methodology and Workflow:
+ 
+
+
+A Spatial Database was created having tables of different tourist attractions such as Historical Places, Lakes and Hill stations which was used to display on the openstreet map.
+Results and Discussion:
+Below is the WAMP server page consisting of the server configuration information and the list of projects which the WAMP server is running. The version used was 2.5. www.GeoToueismPortal.com is the project.
+ 
+
+Below image shows the home and login page of the application. Here there are two types of logins. One is the administrator login and another is a user login. The admin login administers the entire site where as a user has to register to the site for accessing the spatial and non-spatial information.
+ 
+Below is the admin page dashboard with number of tabs from which he/she can configure and maintain the entire site.
+ 
+
+Below is the user login page with the display of map and the over lay layers such as Hill stations, Historical places and lakes. User can turn on and off the different layers and can view it. User can also switch between the maps of street view and satellite view.
+ 
+
+
+
+
+
+Below is the enlarged view of the map where user has an option to maximize the map and view the content.
+ 
+	
+This image shows a search box where user can enter address of his interest and be able to view on the map, a spatial data search. As it is a form of a portal user can also check who is online and view the comments of other users and the also can comment himself
+ 
+Future Scope:
+•	In future we have planned to give an option to the user to share Geo-Tagged images where other users will be able to view and comment on it.
+•	Shortest route calculation is another functionality to find the shortest path between two places.
+•	Improvement in the UI
+•	Downloading of data option.
+
+References:
+•	http://en.wikipedia.org/wiki/Tourism
+•	https://www.drupal.org/
+•	http://thewesternghats.indiabiodiversity.org/
+•	http://stackexchange.com/
+•	http://stackoverflow.com/
